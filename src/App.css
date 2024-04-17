@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  background-color: #404eed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+nav img {
+  height: 40px;
+}
+
+header article {
+  width: 40%;
+  padding: 20px 60px 10px;
+}
+
+header h1 {
+  font-family: Poppins;
+  color: white;
+  font-size: 3.9rem;
+  width: 350px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+header p,
+button {
+  font-family: Roboto;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+header img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 43%;
+}
+
+button {
+  background-color: none;
+  border: none;
+}
+
+header button:first-of-type {
+  display: block;
+  background-color: white;
+  border-radius: 30px;
+  color: black;
+  margin-top: 36px;
+  padding: 13px 23px;
+}
+
+header button:nth-of-type(2) {
+  display: block;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  margin-top: 20px;
+  padding: 13px 23px;
+}
